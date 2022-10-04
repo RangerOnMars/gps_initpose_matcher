@@ -1,0 +1,6 @@
+map_frame : map
+gps_frame : gps
+base_frame : base_link
+tf_timeout : 1.0
+gps_topic : /fix
+max_data_len : 200

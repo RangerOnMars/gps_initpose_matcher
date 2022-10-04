@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="gps_initpose_matcher" type="map_utm_matcher.py" respawn="false" name="map_utm_matcher" output="screen">
+    <rosparam file="$(find gps_initpose_matcher)/cfg/map_utm_matcher.yaml" command="load"/>
+  </node>
+</launch>
